@@ -1,0 +1,189 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>22/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Oct 24 18:37:05 MSK 2024</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (31 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.example.validator.TriangleValidatorTest.testInvalidTriangle_PositiveInfinityPoint()'><b>testInvalidTriangle_PositiveInfinityPoint</b><br>Test class: com.example.validator.TriangleValidatorTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.validator.TriangleValidatorTest@4218d6a3</td></tr>
+<tr>
+<td title='com.example.validator.TriangleValidatorTest.testInvalidTriangle_CollinearPoints()'><b>testInvalidTriangle_CollinearPoints</b><br>Test class: com.example.validator.TriangleValidatorTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.validator.TriangleValidatorTest@4218d6a3</td></tr>
+<tr>
+<td title='com.example.validator.TriangleValidatorTest.testInvalidTriangle_InvalidPoint()'><b>testInvalidTriangle_InvalidPoint</b><br>Test class: com.example.validator.TriangleValidatorTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.validator.TriangleValidatorTest@4218d6a3</td></tr>
+<tr>
+<td title='com.example.validator.PointValidatorTest.testInvalidPoint_NegativeInfinity()'><b>testInvalidPoint_NegativeInfinity</b><br>Test class: com.example.validator.PointValidatorTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.validator.PointValidatorTest@235834f2</td></tr>
+<tr>
+<td title='com.example.entity.PointTest.testPointHashCode()'><b>testPointHashCode</b><br>Test class: com.example.entity.PointTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.entity.PointTest@55141def</td></tr>
+<tr>
+<td title='com.example.entity.PointTest.testPointToString()'><b>testPointToString</b><br>Test class: com.example.entity.PointTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.entity.PointTest@55141def</td></tr>
+<tr>
+<td title='com.example.entity.TriangleTest.testTriangleToString()'><b>testTriangleToString</b><br>Test class: com.example.entity.TriangleTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.entity.TriangleTest@55182842</td></tr>
+<tr>
+<td title='com.example.action.TriangleActionTest.testCalculateArea()'><b>testCalculateArea</b><br>Test class: com.example.action.TriangleActionTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.action.TriangleActionTest@351d00c0</td></tr>
+<tr>
+<td title='com.example.entity.TriangleTest.testArePointsCollinear()'><b>testArePointsCollinear</b><br>Test class: com.example.entity.TriangleTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.entity.TriangleTest@55182842</td></tr>
+<tr>
+<td title='com.example.entity.TriangleTest.testTriangleEquality()'><b>testTriangleEquality</b><br>Test class: com.example.entity.TriangleTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.entity.TriangleTest@55182842</td></tr>
+<tr>
+<td title='com.example.entity.PointTest.testPointCreation()'><b>testPointCreation</b><br>Test class: com.example.entity.PointTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.entity.PointTest@55141def</td></tr>
+<tr>
+<td title='com.example.validator.PointValidatorTest.testInvalidPoint_PositiveInfinity()'><b>testInvalidPoint_PositiveInfinity</b><br>Test class: com.example.validator.PointValidatorTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.validator.PointValidatorTest@235834f2</td></tr>
+<tr>
+<td title='com.example.action.TriangleActionTest.testCalculatePerimeter()'><b>testCalculatePerimeter</b><br>Test class: com.example.action.TriangleActionTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.action.TriangleActionTest@351d00c0</td></tr>
+<tr>
+<td title='com.example.action.TriangleActionTest.testIsEquilateralTriangle()'><b>testIsEquilateralTriangle</b><br>Test class: com.example.action.TriangleActionTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.action.TriangleActionTest@351d00c0</td></tr>
+<tr>
+<td title='com.example.action.TriangleActionTest.testIsRightTriangle()'><b>testIsRightTriangle</b><br>Test class: com.example.action.TriangleActionTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.action.TriangleActionTest@351d00c0</td></tr>
+<tr>
+<td title='com.example.entity.TriangleTest.testTriangleCreation()'><b>testTriangleCreation</b><br>Test class: com.example.entity.TriangleTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.entity.TriangleTest@55182842</td></tr>
+<tr>
+<td title='com.example.validator.TriangleValidatorTest.testInvalidTriangle_NegativeInfinityPoint()'><b>testInvalidTriangle_NegativeInfinityPoint</b><br>Test class: com.example.validator.TriangleValidatorTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.validator.TriangleValidatorTest@4218d6a3</td></tr>
+<tr>
+<td title='com.example.validator.TriangleValidatorTest.testValidTriangle()'><b>testValidTriangle</b><br>Test class: com.example.validator.TriangleValidatorTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.validator.TriangleValidatorTest@4218d6a3</td></tr>
+<tr>
+<td title='com.example.entity.PointTest.testPointEquality()'><b>testPointEquality</b><br>Test class: com.example.entity.PointTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.entity.PointTest@55141def</td></tr>
+<tr>
+<td title='com.example.validator.PointValidatorTest.testInvalidPoint_NaN()'><b>testInvalidPoint_NaN</b><br>Test class: com.example.validator.PointValidatorTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.validator.PointValidatorTest@235834f2</td></tr>
+<tr>
+<td title='com.example.entity.TriangleTest.testTriangleHashCode()'><b>testTriangleHashCode</b><br>Test class: com.example.entity.TriangleTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.entity.TriangleTest@55182842</td></tr>
+<tr>
+<td title='com.example.validator.PointValidatorTest.testValidPoint()'><b>testValidPoint</b><br>Test class: com.example.validator.PointValidatorTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.validator.PointValidatorTest@235834f2</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,8 @@
+com\example\util\FileReaderUtil.class
+com\example\action\Validator.class
+com\example\entity\Triangle.class
+com\example\action\TriangleAction.class
+com\example\entity\Point.class
+com\example\validator\TriangleValidator.class
+com\example\logger\LogConfig.class
+com\example\validator\PointValidator.class

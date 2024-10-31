@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="22" passed="22" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-24T18:37:05 MSK" name="Surefire suite" finished-at="2024-10-24T18:37:05 MSK" duration-ms="31">
+    <groups>
+    </groups>
+    <test started-at="2024-10-24T18:37:05 MSK" name="Surefire test" finished-at="2024-10-24T18:37:05 MSK" duration-ms="31">
+      <class name="com.example.validator.TriangleValidatorTest">
+        <test-method signature="testInvalidTriangle_PositiveInfinityPoint()[pri:0, instance:com.example.validator.TriangleValidatorTest@4218d6a3]" started-at="2024-10-24T18:37:05 MSK" name="testInvalidTriangle_PositiveInfinityPoint" finished-at="2024-10-24T18:37:05 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidTriangle_PositiveInfinityPoint -->
+        <test-method signature="testInvalidTriangle_CollinearPoints()[pri:0, instance:com.example.validator.TriangleValidatorTest@4218d6a3]" started-at="2024-10-24T18:37:05 MSK" name="testInvalidTriangle_CollinearPoints" finished-at="2024-10-24T18:37:05 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidTriangle_CollinearPoints -->
+        <test-method signature="testInvalidTriangle_InvalidPoint()[pri:0, instance:com.example.validator.TriangleValidatorTest@4218d6a3]" started-at="2024-10-24T18:37:05 MSK" name="testInvalidTriangle_InvalidPoint" finished-at="2024-10-24T18:37:05 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidTriangle_InvalidPoint -->
+        <test-method signature="testInvalidTriangle_NegativeInfinityPoint()[pri:0, instance:com.example.validator.TriangleValidatorTest@4218d6a3]" started-at="2024-10-24T18:37:05 MSK" name="testInvalidTriangle_NegativeInfinityPoint" finished-at="2024-10-24T18:37:05 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidTriangle_NegativeInfinityPoint -->
+        <test-method signature="testValidTriangle()[pri:0, instance:com.example.validator.TriangleValidatorTest@4218d6a3]" started-at="2024-10-24T18:37:05 MSK" name="testValidTriangle" finished-at="2024-10-24T18:37:05 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidTriangle -->
+      </class> <!-- com.example.validator.TriangleValidatorTest -->
+      <class name="com.example.entity.PointTest">
+        <test-method signature="testPointHashCode()[pri:0, instance:com.example.entity.PointTest@55141def]" started-at="2024-10-24T18:37:05 MSK" name="testPointHashCode" finished-at="2024-10-24T18:37:05 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPointHashCode -->
+        <test-method signature="testPointToString()[pri:0, instance:com.example.entity.PointTest@55141def]" started-at="2024-10-24T18:37:05 MSK" name="testPointToString" finished-at="2024-10-24T18:37:05 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPointToString -->
+        <test-method signature="testPointCreation()[pri:0, instance:com.example.entity.PointTest@55141def]" started-at="2024-10-24T18:37:05 MSK" name="testPointCreation" finished-at="2024-10-24T18:37:05 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPointCreation -->
+        <test-method signature="testPointEquality()[pri:0, instance:com.example.entity.PointTest@55141def]" started-at="2024-10-24T18:37:05 MSK" name="testPointEquality" finished-at="2024-10-24T18:37:05 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPointEquality -->
+      </class> <!-- com.example.entity.PointTest -->
+      <class name="com.example.action.TriangleActionTest">
+        <test-method signature="testCalculateArea()[pri:0, instance:com.example.action.TriangleActionTest@351d00c0]" started-at="2024-10-24T18:37:05 MSK" name="testCalculateArea" finished-at="2024-10-24T18:37:05 MSK" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateArea -->
+        <test-method signature="testCalculatePerimeter()[pri:0, instance:com.example.action.TriangleActionTest@351d00c0]" started-at="2024-10-24T18:37:05 MSK" name="testCalculatePerimeter" finished-at="2024-10-24T18:37:05 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculatePerimeter -->
+        <test-method signature="testIsEquilateralTriangle()[pri:0, instance:com.example.action.TriangleActionTest@351d00c0]" started-at="2024-10-24T18:37:05 MSK" name="testIsEquilateralTriangle" finished-at="2024-10-24T18:37:05 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsEquilateralTriangle -->
+        <test-method signature="testIsRightTriangle()[pri:0, instance:com.example.action.TriangleActionTest@351d00c0]" started-at="2024-10-24T18:37:05 MSK" name="testIsRightTriangle" finished-at="2024-10-24T18:37:05 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsRightTriangle -->
+      </class> <!-- com.example.action.TriangleActionTest -->
+      <class name="com.example.entity.TriangleTest">
+        <test-method signature="testArePointsCollinear()[pri:0, instance:com.example.entity.TriangleTest@55182842]" started-at="2024-10-24T18:37:05 MSK" name="testArePointsCollinear" finished-at="2024-10-24T18:37:05 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testArePointsCollinear -->
+        <test-method signature="testTriangleEquality()[pri:0, instance:com.example.entity.TriangleTest@55182842]" started-at="2024-10-24T18:37:05 MSK" name="testTriangleEquality" finished-at="2024-10-24T18:37:05 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTriangleEquality -->
+        <test-method signature="testTriangleCreation()[pri:0, instance:com.example.entity.TriangleTest@55182842]" started-at="2024-10-24T18:37:05 MSK" name="testTriangleCreation" finished-at="2024-10-24T18:37:05 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTriangleCreation -->
+        <test-method signature="testTriangleHashCode()[pri:0, instance:com.example.entity.TriangleTest@55182842]" started-at="2024-10-24T18:37:05 MSK" name="testTriangleHashCode" finished-at="2024-10-24T18:37:05 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTriangleHashCode -->
+        <test-method signature="testTriangleToString()[pri:0, instance:com.example.entity.TriangleTest@55182842]" started-at="2024-10-24T18:37:05 MSK" name="testTriangleToString" finished-at="2024-10-24T18:37:05 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTriangleToString -->
+      </class> <!-- com.example.entity.TriangleTest -->
+      <class name="com.example.validator.PointValidatorTest">
+        <test-method signature="testInvalidPoint_NegativeInfinity()[pri:0, instance:com.example.validator.PointValidatorTest@235834f2]" started-at="2024-10-24T18:37:05 MSK" name="testInvalidPoint_NegativeInfinity" finished-at="2024-10-24T18:37:05 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidPoint_NegativeInfinity -->
+        <test-method signature="testInvalidPoint_PositiveInfinity()[pri:0, instance:com.example.validator.PointValidatorTest@235834f2]" started-at="2024-10-24T18:37:05 MSK" name="testInvalidPoint_PositiveInfinity" finished-at="2024-10-24T18:37:05 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidPoint_PositiveInfinity -->
+        <test-method signature="testInvalidPoint_NaN()[pri:0, instance:com.example.validator.PointValidatorTest@235834f2]" started-at="2024-10-24T18:37:05 MSK" name="testInvalidPoint_NaN" finished-at="2024-10-24T18:37:05 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidPoint_NaN -->
+        <test-method signature="testValidPoint()[pri:0, instance:com.example.validator.PointValidatorTest@235834f2]" started-at="2024-10-24T18:37:05 MSK" name="testValidPoint" finished-at="2024-10-24T18:37:05 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidPoint -->
+      </class> <!-- com.example.validator.PointValidatorTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

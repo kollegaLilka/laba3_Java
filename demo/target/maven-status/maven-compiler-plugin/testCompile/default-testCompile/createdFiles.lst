@@ -1,0 +1,5 @@
+com\example\entity\PointTest.class
+com\example\entity\TriangleTest.class
+com\example\validator\TriangleValidatorTest.class
+com\example\validator\PointValidatorTest.class
+com\example\action\TriangleActionTest.class
